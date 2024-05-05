@@ -5,9 +5,9 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class InputThread extends Thread {
-    Socket socket = null;
-    BufferedReader in = null;
-    PrintWriter out = null;
+    Socket socket;
+    BufferedReader in;
+    PrintWriter out;
     Scanner scan = new Scanner(System.in);
 
     public InputThread(Socket socket) {
