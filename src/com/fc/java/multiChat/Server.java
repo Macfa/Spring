@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class Server extends Thread {
     public static void main(String[] args) {
-        ServerSocket serverSocket = null;
-        Socket socket = null;
+        ServerSocket serverSocket;
+        Socket socket;
         Scanner scan = new Scanner(System.in);
 
         try {
